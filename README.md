@@ -18,12 +18,14 @@ This project explores factors influencing meme virality by comparing two groups 
 3. Open `main_notebook.ipynb` in Jupyter Notebook.
 
 ## Usage
-Open `main_notebook.ipynb` and run each cell sequentially to first collect the data (it can also be found in the csv files attached), then import it and perform analysis on meme virality factors. The code provides both numerical analysis, as well as graphical representations such as plots.
+Open `main_notebook.ipynb` and run each cell sequentially to first collect the data (it can also be found in the csv files attached), then import it and perform analysis on meme virality factors. The code provides both numerical analysis, as well as graphical representations, such as plots.
 
 ## Plots:
 - Scatter plots;
 - Bar charts;
 - Histograms;
+- QQ plots (to check for normality);
+  
 For detailed visual insights, refer to the plots in `main_notebook.ipynb`. They all have corresponding titles and a legend, to ensure clarity for the user.
 
 ## Files Description
