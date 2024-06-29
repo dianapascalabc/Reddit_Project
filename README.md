@@ -19,12 +19,26 @@ This project explores factors influencing meme virality by comparing two groups 
 3. Open `main_notebook.ipynb` in Jupyter Notebook.
 
 ## Usage
-Open `main_notebook.ipynb` and run each cell sequentially to perform analysis on meme virality factors.
+Open `main_notebook.ipynb` and run each cell sequentially to first collect the data (it can also be found in the csv files attached), then import it and perform analysis on meme virality factors. The code provides both numerical analysis, as well as graphical representations such as plots.
+
+## Plots:
+- Scatter plots;
+- Bar charts;
+- Histograms;
+For detailed visual insights, refer to the plots in `main_notebook.ipynb`. They all have corresponding titles and a legend, to ensure clarity for the user.
 
 ## Files Description
-- `main_notebook.ipynb`: Contains the analysis code and results interpretation.
-- `data.csv`: Dataset containing meme features and virality indicators.
+- `main_notebook.ipynb`: Contains all the code and results interpretation.
+- `top_memes.csv`: Original dataset containing top memes data.
+- `top_memes_cleaned.csv`: Cleaned version of `top_memes.csv` after preprocessing.
+- `non_viral_memes.csv`: Original dataset containing non-viral memes data.
+- `non_viral_memes_cleaned.csv`: Cleaned version of `non_viral_memes.csv` after preprocessing.
+- `image_features.csv`: CSV file containing extracted features from meme images.
 
+## Image Folders
+- `viral_images/`: Folder containing images of viral memes.
+- `non_viral_images/`: Folder containing images of non-viral memes.
+  
 ## Dependencies
 - Python 3.7+
 - pandas 1.2.3
@@ -37,21 +51,19 @@ Open `main_notebook.ipynb` and run each cell sequentially to perform analysis on
 - transformers 4.6.0
 - torch 1.8.1
 - pytesseract 0.3.8
+- praw 7.4.0
+- tensorflow 2.7.0
+- keras 2.8.0
 
 ## Credits
 - Data sourced from Reddit API.
-- Sentiment analysis conducted using TextBlob and Transformers.
-- Emotion distribution analysis using Transformers.
-- Statistical tests implemented with scikit-learn.
 
 ## Contact Information
 For any questions or feedback, contact me at:
-- Email: yourname@email.com
-- GitHub: github.com/yourusername
+- Email: d.cernetchi@student.vu.nl
+- GitHub: github.com/dianapascalabc
 
 ## Additional Notes
 - Ensure an active internet connection for data retrieval from Reddit API.
 - Execution time may vary depending on the size of the dataset and computational resources.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
