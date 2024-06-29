@@ -34,7 +34,7 @@ For detailed visual insights, refer to the plots in `main_notebook.ipynb`. They 
 - `top_memes_cleaned.csv`: Cleaned version of `top_memes.csv` after preprocessing.
 - `non_viral_memes.csv`: Original dataset containing non-viral memes data.
 - `non_viral_memes_cleaned.csv`: Cleaned version of `non_viral_memes.csv` after preprocessing.
-- `image_features.csv`: CSV file containing extracted features from meme images.
+- `image_features.zip`: Contains a CSV file with extracted features from meme images.
 
 ## Image Folders
 - `viral_images/`: Folder containing images of viral memes.
