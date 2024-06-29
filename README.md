@@ -15,7 +15,7 @@ This project explores factors influencing meme virality by comparing two groups 
 
 ## Installation Instructions
 1. Clone the repository from GitHub.
-2. Install required dependencies using `pip install -r requirements.txt`.
+2. Install required dependencies using pip install or conda.
 3. Open `main_notebook.ipynb` in Jupyter Notebook.
 
 ## Usage
