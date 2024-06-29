@@ -37,8 +37,8 @@ For detailed visual insights, refer to the plots in `main_notebook.ipynb`. They 
 - `image_features.zip`: Contains a CSV file with extracted features from meme images.
 
 ## Image Folders
-- `viral_images/`: Folder containing images of viral memes.
-- `non_viral_images/`: Folder containing images of non-viral memes.
+- `viral_images/`: Folder containing images of viral memes. (https://drive.google.com/drive/folders/1LoR9TB7ln-Ni4ryBU_pXxGRI1CYvLb8W?usp=sharing)
+- `non_viral_images/`: Folder containing images of non-viral memes. (https://drive.google.com/drive/folders/14fJTK7G4dW8iWyaO-p3QlEmz34N-TSIH?usp=sharing)
   
 ## Dependencies
 - Python 3.7+
