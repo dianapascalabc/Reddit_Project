@@ -11,7 +11,6 @@ This project explores factors influencing meme virality by comparing two groups 
 - [Credits](#credits)
 - [Contact Information](#contact-information)
 - [Additional Notes](#additional-notes)
-- [License](#license)
 
 ## Installation Instructions
 1. Clone the repository from GitHub.
