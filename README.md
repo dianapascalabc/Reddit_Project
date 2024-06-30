@@ -18,7 +18,7 @@ This project explores factors influencing meme virality by comparing two groups 
 3. Open `main_notebook.ipynb` in Jupyter Notebook.
 
 ## Usage
-Open `main_notebook.ipynb` and run each cell sequentially to first collect the data (it can also be found in the csv files attached), then import it and perform analysis on meme virality factors. The code provides both numerical analysis, as well as graphical representations, such as plots.
+Open `main_notebook.ipynb` and run each cell sequentially to install the necessary packages, if needed. Afterwards, the following cells are designed to collect data from Reddit. However, to save time and ensure consistency in results, this data collection step can be skipped. The required datasets have already been collected and are included as CSV files within this repository. It is recommended to import and work with these pre-collected datasets to facilitate the analysis process. Lastly, the code provides both numerical analysis, as well as graphical representations, such as plots.
 
 ## Plots:
 - Scatter plots;
@@ -66,5 +66,5 @@ For any questions or feedback, contact me at:
 
 ## Additional Notes
 - Ensure an active internet connection for data retrieval from Reddit API.
-- Execution time may vary depending on the size of the dataset and computational resources.
+- Execution time may vary depending on computational resources.
 
